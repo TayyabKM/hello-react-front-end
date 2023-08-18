@@ -67,9 +67,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Install Ruby
-- Install Rails
-- Install Postgresql
+- Node.js
+- npm
 
 ### Setup
 
@@ -85,11 +84,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello-rails-react
+  cd hello-react-front-end
   npx create-react-app
-```
-```sh
-  gem install --no-document rubocop -v '>= 1.0, < 2.0'
 ```
 ```sh
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
@@ -97,14 +93,10 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project:
 
 ```sh
-  yarn build
-```
-
-```sh
-  rails server
+  use git bash to open in Vs code
 ```
 
 ### Run tests
@@ -112,13 +104,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  rubocop --color
-```
-```sh
   npx stylelint "**/*.{css,scss}"
-```
-```sh
-  rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
